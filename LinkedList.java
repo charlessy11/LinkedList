@@ -31,7 +31,6 @@ public class LinkedList<E> {
         for (int i = 0; i < position; i++) {
             curr = curr.next;
         }
-//        System.out.println(curr.next);
         return curr.data;
     }
     //add item to the end of list
@@ -97,7 +96,6 @@ public class LinkedList<E> {
             Node<E> node = prev.next;
             prev.next = node.next;
             --size;
-//            System.out.println(node.data);
             return node.data;
         }
     }
