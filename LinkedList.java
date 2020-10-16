@@ -138,6 +138,8 @@ public class LinkedList<E> {
         list.remove(3);
         System.out.println("Linked List:");
         list.printList();
+        //7
+        System.out.println("\nFirst item in list:\n" + list.get(0));
         System.out.println("Reversed Linked List:");
         //5->3->7
         list.head = list.reverse(list.head);
